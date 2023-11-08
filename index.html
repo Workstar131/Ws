@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Send WhatsApp Messages from Text File</title>
+  <link rel="stylesheet" href="">
+</head>
+<body>
+
+  <h1>Send WhatsApp Messages from Text File</h1>
+
+  <form action="/send-messages" method="post" enctype="multipart/form-data">
+    <input type="file" name="whatsapp_numbers_file" accept="text/plain" required>
+    <textarea name="message" placeholder="Enter the message you want to send" required></textarea>
+    <input type="submit" value="Send Messages">
+  </form>
+
+<script src="index.js"  charset="UTF-8"></script>
+</body>
+</html>
